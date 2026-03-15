@@ -29,12 +29,12 @@ The portfolio highlights projects in **Computer Vision, Machine Learning, Automa
 
 ## 🌍 Live Portfolio
 
-Coming Soon 🚀
+https://srivathsan-portfolio-psi.vercel.app/ 🚀
 
 ---
 
 ## 📬 Contact
 
-📧 srivathsangms@gmail.com  
+📧 Mail: srivathsangms@gmail.com  
 🔗 LinkedIn: http://www.linkedin.com/in/srivathsangms  
 🔗 GitHub: https://github.com/srivathsangms
