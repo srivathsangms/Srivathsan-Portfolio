@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 export default function ResumeCTA(){
 
   const download = ()=>{
-    window.open("https://github.com/srivathsangms/Srivathsan-Portfolio/blob/main/Srivathsan_Resume.pdf")
+    window.open("/Srivathsan_Resume.pdf")
   }
 
   return(
