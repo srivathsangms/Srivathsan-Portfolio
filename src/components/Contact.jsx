@@ -125,24 +125,35 @@ export default function Contact({ dark }){
         </motion.div>
 
         {/* LOCATION CARD */}
-        <motion.div
-          whileHover={{scale:1.08}}
-          className={`
-            backdrop-blur-xl
-            border
-            shadow-xl
-            rounded-2xl
-            p-6
-            w-64
-            ${dark
-              ? "bg-slate-900/60 border-slate-700"
-              : "bg-white/70 border-white/40"
-            }
-          `}
-        >
-          <h3 className="font-semibold text-sky-500 mb-2">Location</h3>
-          <p className="text-sm">Madurai, Tamil Nadu</p>
-        </motion.div>
+<motion.div
+  whileHover={{scale:1.08}}
+  className={`
+    backdrop-blur-xl
+    border
+    shadow-xl
+    rounded-2xl
+    p-6
+    w-64
+    text-center
+    ${dark
+      ? "bg-slate-900/60 border-slate-700"
+      : "bg-white/70 border-white/40"
+    }
+  `}
+>
+  <h3 className="font-semibold text-sky-500 mb-2">
+    Location
+  </h3>
+
+  <p className="text-sm font-medium">
+    Madurai, Tamil Nadu
+  </p>
+
+  <p className="text-xs mt-2 opacity-70 flex items-center justify-center gap-1">
+    INDIA 🇮🇳
+  </p>
+
+</motion.div>
 
       </div>
 
