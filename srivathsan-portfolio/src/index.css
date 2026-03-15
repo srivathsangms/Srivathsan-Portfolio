@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+body{
+  background: linear-gradient(180deg,#f8fcff,#eef7ff);
+  overflow-x:hidden;
+}
+.hide-scrollbar::-webkit-scrollbar{
+  display:none;
+}
+.hide-scrollbar{
+  -ms-overflow-style:none;
+  scrollbar-width:none;
+}
+@keyframes ping-slow{
+  0% { transform: scale(1); opacity: 0.6; }
+  70% { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+.animate-ping-slow{
+  animation: ping-slow 2.2s infinite;
+}
+.animate-ripple{
+  animation: rippleSpread 0.7s ease forwards;
+}
+
+@keyframes rippleSpread{
+  0%{
+    transform: translate(-50%,-50%) scale(0);
+    opacity:1;
+  }
+  100%{
+    transform: translate(-50%,-50%) scale(80);
+    opacity:1;
+  }
+}
+.animate-ripple{
+  animation: rippleSpread 0.7s ease forwards;
+}
+
+@keyframes rippleSpread{
+  0%{
+    transform: translate(-50%,-50%) scale(0);
+    opacity:1;
+  }
+  90%{
+    transform: translate(-50%,-50%) scale(80);
+    opacity:1;
+  }
+  100%{
+    transform: translate(-50%,-50%) scale(80);
+    opacity:0;
+  }
+}
+/* DARK MODE GLOBAL */
+
+.dark-mode{
+  color:#e2e8f0;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3{
+  color:#38bdf8;
+}
+
+.dark-mode p{
+  color:#94a3b8;
+}
+
+.dark-mode span{
+  color:#cbd5f5;
+}
+
+.dark-mode button{
+  color:#e2e8f0;
+}
