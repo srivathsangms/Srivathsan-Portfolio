@@ -142,16 +142,26 @@ export default function Contact({ dark }){
   `}
 >
   <h3 className="font-semibold text-sky-500 mb-2">
-    Location
-  </h3>
+  Location
+</h3>
 
-  <p className="text-sm font-medium">
-    Madurai, Tamil Nadu
-  </p>
+<p className="text-sm font-medium">
+  Madurai, Tamil Nadu
+</p>
 
-  <p className="text-xs mt-2 opacity-70 flex items-center justify-center gap-1">
-    INDIA 🇮🇳
-  </p>
+<div className="mt-2 flex items-center justify-center gap-2 opacity-70">
+
+  <span className="text-xs font-semibold tracking-wide">
+    INDIA
+  </span>
+
+  <img
+    src="/india.svg"
+    alt="Indian Flag"
+    className="w-5 h-3 object-cover rounded-sm shadow"
+  />
+
+</div>
 
 </motion.div>
 
